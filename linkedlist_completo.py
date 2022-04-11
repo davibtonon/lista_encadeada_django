@@ -89,8 +89,7 @@ class LinkedList(object):
             while (no_atual.hasNext()):
                 no_atual = no_atual.next
             no_atual.next = LinkedListNode(value)
-            self._tail = no_atual.next
-          
+            self._tail = no_atual.next   
         else:
             no_atual = LinkedListNode(value) 
             self._head = no_atual
@@ -108,18 +107,19 @@ class LinkedList(object):
      
         novo_elemento = LinkedListNode(value, self._head)
         self._head = novo_elemento
-        self._len +=1
+        self._len += 1
 
     def removeFirst(self):
         """
         Esta função deve remover o primeiro elemento da lista e retornar o seu valor.
         Apos a execução, a lista ligada deve ter um elemento a menos.
         """
-        primeiro_elemento = self.head
-        self._head = self._head.next
-        self._len -= 1
+        if self._len:
+            primeiro_elemento = self.head
+            self._head = self._head.next
+            self._len -= 1
 
-        return primeiro_elemento
+            return primeiro_elemento
 
     def getValueAt(self, index):
         """
