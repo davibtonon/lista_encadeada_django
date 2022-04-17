@@ -18,7 +18,7 @@ Criação de um site usando Django que inicia uma lista encadeada e salvar na me
 
 ## Funcionalidades
 
-:heavy_check_mark: append:Adicionar um valor no final da lista
+:heavy_check_mark: append: Adicionar um valor no final da lista
 
 :heavy_check_mark: insert: Adicionar um valor no inicio da lista.
 
@@ -48,7 +48,10 @@ bash/zhs:
 ```
 source venv/bin/activate  
 ```
-cmd:
+
+ou
+
+para Window cmd:
 ```
 venv\Scripts\activate.bat
 ```
@@ -60,6 +63,7 @@ pip install -r requirements.txt
 ```
 
 Em seguida rode o servidor com o comando:
+
 ```
 python manage.py runserver
 ```
