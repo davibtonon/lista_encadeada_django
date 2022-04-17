@@ -43,8 +43,14 @@ Em seguida acesse a pasta via terminal e crie um novo ambiente virtual em Python
 ```
 
 Ative o ambiente com o comando:
+
+bash/zhs: 
 ```
- source venv/bin/activate  
+source venv/bin/activate  
+```
+cmd:
+```
+venv\Scripts\activate.bat
 ```
 
 Instale todos as bibliotecas necessárias com o comando:
