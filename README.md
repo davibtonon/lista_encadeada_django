@@ -33,7 +33,7 @@ Criação de um site usando Django que inicia uma lista encadeada e salvar na me
 No terminal, clone o projeto: 
 
 ```
-git clone https://github.com/davibtonon/vaga_qipu.git
+git clone https://github.com/davibtonon/lista_encadeada_django.git
 ```
 
 Em seguida acesse a pasta via terminal e crie um novo ambiente virtual em Python com o comando:
